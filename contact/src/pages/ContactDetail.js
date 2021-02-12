@@ -16,7 +16,7 @@ export default function ContactDetail(props) {
            <Link className="backLink" to={"/"}> &larr; </Link>
         </p>
         <h2>
-            <img src={activeUser.picture.thumbnail} height="130px"  alt="Avatar" class="avatar"></img>
+            <img src={activeUser.picture.large} height="130px"  alt="Avatar" class="avatar"></img>
         </h2>
         <ul className="nameCard">
         
